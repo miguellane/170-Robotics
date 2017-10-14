@@ -1,0 +1,13 @@
+
+<launch>
+
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch" />
+  <include file="$(find turtlebot_gazebo)/launch/amcl_demo.launch" />
+
+<!--
+  <node pkg="simple" type="navigatepoints" name="navigatepoints"/>
+-->
+
+  <node pkg="simple" type="getplan" name="getplan"/>
+
+</launch>

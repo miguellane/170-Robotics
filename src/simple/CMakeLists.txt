@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(simple)
+
+find_package(catkin REQUIRED)
+find_package(catkin REQUIRED COMPONENTS roscpp turtlesim geometry_msgs std_msgs nav_msgs sensor_msgs move_base_msgs actionlib)
+
+catkin_package()
+include_directories(${catkin_INCLUDE_DIRS})
+
+add_executable(drawsquare drawsquare.cpp)
+add_executable(followplan followplan.cpp)
+add_executable(printcolor printcolor.cpp)
+add_executable(chatter chatter.cpp)
+add_executable(moveongrid moveongrid.cpp)
+add_executable(move_around move_around.cpp)
+add_executable(navigatepoints navigatepoints.cpp)
+add_executable(getplan getplan.cpp)
+add_executable(eigen eigen.cpp)
+
+target_link_libraries(drawsquare ${catkin_LIBRARIES})
+target_link_libraries(followplan ${catkin_LIBRARIES})
+target_link_libraries(printcolor ${catkin_LIBRARIES})
+target_link_libraries(chatter ${catkin_LIBRARIES})
+target_link_libraries(moveongrid ${catkin_LIBRARIES})
+target_link_libraries(move_around ${catkin_LIBRARIES})
+target_link_libraries(navigatepoints ${catkin_LIBRARIES})
+target_link_libraries(getplan ${catkin_LIBRARIES})
+target_link_libraries(eigen ${catkin_LIBRARIES})
