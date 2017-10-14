@@ -1,0 +1,8 @@
+prefix=/home/miguel/Desktop/CSE180/devel
+
+Name: husky_msgs
+Description: Description of husky_msgs
+Version: 0.2.7
+Cflags: -I/home/miguel/Desktop/CSE180/devel/include
+Libs: -L/home/miguel/Desktop/CSE180/devel/lib 
+Requires: std_msgs message_runtime

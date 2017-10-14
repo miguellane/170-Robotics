@@ -1,0 +1,8 @@
+prefix=/home/miguel/Desktop/CSE180/devel
+
+Name: husky_control
+Description: Description of husky_control
+Version: 0.2.7
+Cflags: 
+Libs: -L/home/miguel/Desktop/CSE180/devel/lib 
+Requires: 

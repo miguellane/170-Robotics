@@ -1,0 +1,8 @@
+prefix=/home/miguel/Desktop/CSE180/devel
+
+Name: simple
+Description: Description of simple
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/miguel/Desktop/CSE180/devel/lib 
+Requires: 

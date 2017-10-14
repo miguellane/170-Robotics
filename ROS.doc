@@ -1,0 +1,13 @@
+source /opt/ros/kinetic/setup.bash
+catkin_create_pkg package-name dep1 dep2
+source devel/setup.bash
+
+catkin_make
+roscore
+rosrun
+
+roslaunch
+
+rostopic
+rosmsg
+rossrv
