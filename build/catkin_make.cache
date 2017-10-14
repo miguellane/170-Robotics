@@ -1,0 +1,2 @@
+husky_control:husky_description:husky_desktop:husky_gazebo:husky_msgs:husky_navigation:husky_simulator:husky_ur5_moveit_config:husky_viz:simple
+-DCATKIN_DEVEL_PREFIX=/home/miguel/Desktop/CSE180/devel -DCMAKE_INSTALL_PREFIX=/home/miguel/Desktop/CSE180/install -G Unix Makefiles
